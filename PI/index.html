@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="pt_BR">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Projeto integrador - Paraíbe-se</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <main>
+        <nav class="navButtons">
+            <a href="?">Home</a>
+            <a href="/html/">Atividades</a>
+            <a href="/html/">Localização</a>
+            <a href="/html/">Sobre nós</a>
+        </nav>
+        <figure>
+            <img src="resources/logoComTexto.png" width="100%" height="70%" alt="Ground with rock and the sunset in the background">
+        </figure>
+
+        <h2 id="wText">Nossas cidades, disponíveis para você visitar</h2>
+        <div class="plantGrid">
+            <div class="plantGrid1">
+                <h3>Areia - Terra da Cultura</h3>
+                <div>
+                    <img src="resources/Areia/areia-paraiba-gilberto-batista.jpg" width="250"
+                    alt="Uma casa no estilo colonial amarela" >
+                </div>
+                
+                <p id="textoDescritivo">Principal município do Brejo Paraibano, Areia surgiu como povoado em 1625. É a
+                    cidade natal do pintor
+                    Pedro Américo, do escritor José Américo de Almeida. Fica a 120 quilômetros da Capital, João Pessoa.
+                    É uma
+                    pacata cidade do interior e possui vários prédios tombados pelo patrimônio histórico</p>
+            </div>
+            <div class="plantGrid2">
+                <h3>Bananeiras - Terra do Frio</h3>
+                <img src="resources/Bananeiras/estacao_bananeiras_-_arquivo_do_sebrae_pb.webp" width="250"
+                    alt="Uma casa no estilo colonial laranja">
+                <p id="textoDescritivo">Bananeiras, no Brejo Paraibano, a 136 km de João Pessoa, 70 km de Campina Grande
+                    e 147 de Natal, é misturar história, lendas, fatos e tradições. A própria história do município dá
+                    exemplo disso. As edificações do Período colonial, neoclássico, ecléticos, art-decô e
+                    protomodernistas, que
+                    ainda existem na cidade, são os resultados da opulência vivida pela aristocracia rural. O dinheiro
+                    do café permitia a construção de palacetes, com ladrilhos importados.</p>
+            </div>
+            <div class="plantGrid3">
+                <h3>Araruna - Terra da Trilha</h3>
+                <img src="resources/Araruna/images.jpeg" width="250"
+                    alt="Igreja amarela com portas azuis de dois andares">
+                <p id="textoDescritivo">Conhecida pelo seu clima ameno, o município possui uma das mais tradicionais
+                    Festas de São João da
+                    Paraíba, festejo popular realizado no final do mês de junho. Araruna é um dos principais municípios
+                    do Agreste Paraibano, devido sua polarização aos demais municípios do Curimataú da Paraíba</p>
+            </div>
+            <div class="plantGrid4">
+                <h3>Cabaceiras - Roliúde Nordestina</h3>
+                <img src="resources/Cabaceiras/matriz.jpg" width="250" alt="Igreja pequena">
+                <p id="textoDescritivo">Cabaceiras, no Cariri paraibano, já foi cenário para a produção de mais de 30
+                    séries, documentários, novelas e filmes como, por exemplo, “O Auto da Compadecida”, que é baseado na
+                    peça teatral de Ariano Suassuna. Além disso, conta com o principal atrativo turístico, o Lajedo de
+                    Pai Mateus. Lá os visitantes buscam como roteiro o ecoturismo – o turismo voltado para a natureza e
+                    contemplação.</p>
+            </div>
+            <div class="plantGrid5">
+                <h3>Boqueirão - Terra das Águas</h3>
+                <img src="resources/Boqueirao/2611cfa110a473ece84c9976acf64c2e.jpg" width="250"
+                    alt="Igreja grande e branca">
+                <p id="textoDescritivo">Boqueirão exporta arte em todos os sentidos. São inúmeros os seus filhos que,
+                    pela Paraíba e pelo
+                    Nordeste como um todo, apresentam toda a riqueza de sua música (como é o caso do saxofonista
+                    Sarayva), dança, literatura, dramaturgia, etc. Podemos destacar a Filarmônica Municipal, o grupo
+                    Kiriri Band, a orquestra de frevo, as companhias de dança municipais, os grupos de chorinho, seus
+                    violonistas e, mais recentemente, seus escritores – poetas e poetisas, contistas e ensaístas.</p>
+            </div>
+            <div class="plantGrid6">
+                <h3>Queimadas - Terra das Pedras</h3>
+                <img src="resources/Queimadas/Digitalizar0058.jpg" width="250" alt="Igreja branca com praça em frente">
+                <p id="textoDescritivo">Queimadas é um dos principais municípios do Agreste Paraibano devido seu
+                    comércio ativo e sua localização privilegiada. Queimadas é uma cidade que se encontra na base sul da
+                    serra de Bodopitá, distante apenas 18 km de Campina Grande. A região, antes da ocupação comandada
+                    pelos sertanistas da família Oliveira Ledo, ligados à Casa da Torre, foi sucessivamente ocupado por
+                    sociedades nativas pré-históricas, cujos vestígios ainda podem ser encontrados nos sítios
+                    arqueológicos que ainda existem na serra e suas circunjacências.</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="carousel-view">
+              <button id="prev-btn" class="prev-btn">
+               <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+            <path d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
+          </svg>
+              </button>
+              <div id="item-list" class="item-list">
+                                    <div>
+                                        <img id="item" class="item" src="resources/Bananeiras/ESTAÇÃO-01.jpg"/>
+                                        <h4 id="imgComTexto">Estação bananeira possui estilo colonial e uma excelente gastronimia</h4>
+                                    </div>
+                                    <div>
+                                        <img id="item" class="item" src="resources/Areia/EngenhoTriunfo-4745.jpg"/>
+                                        <h4 id="imgComTexto">Desfrute do lazer e das cachaças de Areia no engenho Triunfo</h4>
+                                    </div>
+                                    <div>
+                                        <img id="item" class="item" src="resources/Araruna/Parque_Estadual_da_Boca.jpg"/>
+                                        <h4 id="imgComTexto">Vislumbre as beleza naturais da Caating na Pedra da Boca</h4>
+                                    </div>
+                                    <div>
+                                        <img id="item" class="item" src="resources/Cabaceiras/principall_1-20242915.jpg"/>
+                                        <h4 id="imgComTexto">Visite os set de filmes famosos no Lajedo do pai mateus</h4>
+                                    </div>
+                                    <div>
+                                        <img id="item" class="item" src="resources/Boqueirao/trilha-do-gaviao-lajedo-do-marinho-04.webp"/>
+                                        <h4 id="imgComTexto">Aventure-se pelas trilhas do gavião no lajedo do marinho</h4>
+                                    </div>
+                                    <div>
+                                        <img id="item" class="item" src="resources/Queimadas/images.jpg"/>
+                                        <h4 id="imgComTexto">Deseja aventura com escalada, a pedra do touro é o ideal</h4>
+                                    </div>
+                  </div>
+              <button id="next-btn" class="next-btn">
+                    <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+            <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+          </svg>
+                  </button>
+              </div>
+          </div>
+          <script src="sideScroll.js"></script>
+          <div class="ytContainer">
+            <div id="ytSlider">
+                <iframe height="280" width="300" src="https://www.youtube.com/embed/cmUfQTJFaoo"></iframe>
+                <iframe height="280" width="300" src="https://www.youtube.com/embed/Q7zclusH7Og"></iframe>
+                <iframe height="280" width="300" src="https://www.youtube.com/embed/uWeQ1YuLY3U"></iframe>
+                <iframe height="280" width="300" src="https://www.youtube.com/embed/1jhjbpiZHHM"></iframe>
+              </div>
+          </div>
+          <h2>Do norte para o sul, veja nosso roteiro turistico</h2>
+          <div>
+            <div class="roteiro">
+                <div class="roteiroPrimeiro">
+                    <div>
+                        <img class="imgRounded" src="resources/Araruna/canionMacapa.jpg" height="150px" width="150px"
+                        alt="Um desfiladeiro com rochas cor de argila e arvores no fundo">
+                    </div>
+                    
+                    <p id="textoDescritivo">No primeiro dia o Cânion de Macapá formado há milhões de anos por onde corre o Rio Salgadinho. Do alto de um mirante tem-se a vista dos imensos paredões de rocha que escondem entradas de grutas, cavernas e registros de homens pré-históricos.</p>
+                </div>
+                <div class="roteiroSegundo">
+                    <div>
+                        <img class="imgRounded" src="resources/Bananeiras/nossaSenhoraLivramento.jpg" height="150px" width="150px"
+                        alt="Uma Igreja amarela com o céu de fundo">
+                    </div>
+                    
+                    <p id="textoDescritivo">Após uma aventura, que tal acalmar os ânimos na Igreja de Nossa Senhora do Livramento, em Bananeiras, reúne antiguidade e beleza numa das cidades mais singulares da Paraíba. </p>
+                </div>
+                <div class="roteiroPrimeiro">
+                    <div>
+                        <img class="imgRounded" src="resources/Areia/teatroMinerva.jpg" height="150px" width="150px"
+                        alt="Uma casa no estilo colonial amarela">
+                    </div>
+                    
+                    <p id="textoDescritivo">Continuando com o caminho cultural o primeiro teatro construído na Paraíba, possui uma acústica de excelente qualidade. Foi edificado com o objetivo de arrecadar fundos para a libertação dos escravos. </p>
+                </div>
+                <div class="roteiroSegundo">
+                    <div>
+                        <img class="imgRounded" src="resources/Campina_Grande/Sitio_SaoJoao.jpg" height="150px" width="150px"
+                        alt="Uma Igreja amarela com o céu de fundo">
+                    </div>
+                    
+                    <p id="textoDescritivo">Após uma aventura, que tal acalmar os ânimos na Igreja de Nossa Senhora do Livramento, em Bananeiras, reúne antiguidade e beleza numa das cidades mais singulares da Paraíba. </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="mapCenter">
+            <iframe id="mapBorder" src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d506880.68830942!2d-36.261941792092614!3d-7.008648758493904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x7ade6066d629369%3A0x523a2b30ba328b4b!2sAraruna%2C%20PB%2C%2058233-000!3m2!1d-6.5283663!2d-35.7407606!4m5!1s0x7adc646bc85194b%3A0x467fc0ac83235a41!2sBananeiras%2C%20PB%2C%2058220-000!3m2!1d-6.7544783!2d-35.633234!4m5!1s0x7ac3234c0d63aa5%3A0xe324089f03516f32!2sAreia%2C%20PB%2C%2058397-000!3m2!1d-6.9685016!2d-35.702864999999996!4m5!1s0x7ac1e5f43201c85%3A0xc9656aec3aa6af51!2sCampina%20Grande%2C%20PB!3m2!1d-7.2206167!2d-35.888832799999996!4m5!1s0x7ac028f765555ad%3A0xd9a9e7ee97f1edae!2sQueimadas%2C%20PB%2C%2058475-000!3m2!1d-7.3637571!2d-35.9023681!4m5!1s0x7a94dace1df0947%3A0x4a05720fda953f9e!2sBoqueir%C3%A3o%2C%20PB%2C%2058450-000!3m2!1d-7.4826624!2d-36.135171199999995!4m5!1s0x7a935bb322737e9%3A0x9c602e17e3bdcdef!2sCabaceiras%2C%20PB%2C%2058480-000!3m2!1d-7.490498499999999!2d-36.287779199999996!5e0!3m2!1spt-BR!2sbr!4v1716295917137!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+
+    </main>
+</body>
+<footer>
+    <div class="foot">
+        <img src="Asset 2@3x.png" width="40px" id="logoFoot">
+        <p><a
+                href="https://www.treehugger.com/evergreen-shrubs-5113251"></a>
+        </p>
+    </div>
+    <p>Copyright </p>
+</footer>
+
+</html>
