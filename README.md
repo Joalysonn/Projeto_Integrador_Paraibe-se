@@ -1,1 +1,3 @@
 # Projeto_Integrador_Paraibe-se
+
+O nosso intuito com esse projeto é revelar as riquezas da Paraíba de uma maneira que possa ser vivenciada, criando assim um roteiro informativo que não apenas informa sobre nosso estado, mas também inspira e possibilita que pessoas de fora venham conhecer e explorar as maravilhas de nossas cidades. Cada cidade tem sua própria história, cultura e atrações únicas que refletem a diversidade e o espírito vibrante da Paraíba. Neste projeto, vamos explorar esses tesouros escondidos, desde os sertões encantados, passando pelas belezas naturais e as tradições culturais que tornam cada cidade um destino único. Juntos, vamos descobrir a Paraíba como nunca antes.
